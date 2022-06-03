@@ -20,28 +20,28 @@
 	<body>
 		<div class="background1">
 			<h1>#1 Only Webm</h1>
-			<video width="500" autoplay muted loop src="1-textured.webm"></video>
+			<video playsinline controls width="500" autoplay muted loop src="1-textured.webm"></video>
 		</div>
 		<div class="background">
 			<h1>#2 Only Mov -c:v png</h1>
 			<p>Created with <code>ffmpeg -c:v libvpx-vp9 -i 1-textured.webm -c:v png bar.mov</code></p>
-			<video width="500" autoplay muted loop src="bar.mov"></video>
+			<video playsinline controls width="500" autoplay muted loop src="bar.mov"></video>
 		</div>
 		<div class="background">
 			<h1>#3 Only Mov -c:v libx265 -vtag hvc1</h1>
 			<p>Created with <code>ffmpeg -c:v libvpx-vp9 -i 1-textured.webm -c:v libx265 -vtag hvc1 bar2.mov</code></p>
-			<video width="500" autoplay muted loop src="bar2.mov"></video>
+			<video playsinline controls width="500" autoplay muted loop src="bar2.mov"></video>
 		</div>
 		<div class="background">
 			<h1>#4 Both sources (#1 and #2)</h1>
-			<video width="500" autoplay muted loop>
+			<video playsinline controls width="500" autoplay muted loop>
 				<source src="bar.mov" type="video/quicktime" />
 				<source src="1-textured.webm" type="video/webm" />
 			</video>
 		</div>
 		<div class="background">
 			<h1>#5 Both sources (#1 and #3)</h1>
-			<video width="500" autoplay muted loop>
+			<video playsinline controls width="500" autoplay muted loop>
 				<source src="bar2.mov" type="video/quicktime" />
 				<source src="1-textured.webm" type="video/webm" />
 			</video>
