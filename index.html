@@ -30,7 +30,7 @@
 		<div class="background1">
 			<h1>#3 Only Mov -c:v libx265 -vtag hvc1</h1>
 			<p>Created with <code>ffmpeg -c:v libvpx-vp9 -i 1-textured.webm -c:v libx265 -vtag hvc1 bar2.mov</code></p>
-			<video playsinline controls width="500" autoplay muted loop src="outputwer.mov"></video>
+			<video playsinline controls width="500" autoplay muted loop src="bar2.mov"></video>
 		</div>
 		<div class="background1">
 			<h1>#4 Both sources (#1 and #2)</h1>
@@ -42,7 +42,7 @@
 		<div class="background1">
 			<h1>#5 Both sources (#1 and #3)</h1>
 			<video playsinline controls width="500" autoplay muted loop>
-				<source src="outputwer.mov" type="video/quicktime" />
+				<source src="bar2.mov" type='video/mp4; codecs="hvc1"' />
 				<source src="1-textured.webm" type="video/webm" />
 			</video>
 		</div>
