@@ -21,7 +21,7 @@
 		<div class="background1">
 			<h1>#0 Converted with Mac</h1>
 			<video playsinline controls width="500" autoplay muted loop>
-				<source src="ae-rendered-1.mov" type="video/quicktime" />
+				<source src="really-alpha2-1.mov" type="video/quicktime" />
 				<source src="1-textured.webm" type="video/webm" />
 			</video>
 		</div>
@@ -29,27 +29,18 @@
 			<h1>#1 Only Webm</h1>
 			<video playsinline controls width="500" autoplay muted loop src="1-textured.webm"></video>
 		</div>
-		<div class="background1">
-			<h1>#2 Only Mov -c:v png</h1>
-			<p>Created with <code>ffmpeg -c:v libvpx-vp9 -i 1-textured.webm -c:v png bar.mov</code></p>
-			<video playsinline controls width="500" autoplay muted loop src="bar.mov"></video>
-		</div>
-		<div class="background1">
-			<h1>#3 Only Mov -c:v libx265 -vtag hvc1</h1>
-			<p>Created with <code>ffmpeg -c:v libvpx-vp9 -i 1-textured.webm -c:v libx265 -vtag hvc1 bar2.mov</code></p>
-			<video playsinline controls width="500" autoplay muted loop src="bar2.mov"></video>
-		</div>
+
 		<div class="background1">
 			<h1>#4 Both sources (#1 and #2)</h1>
 			<video playsinline controls width="500" autoplay muted loop>
-				<source src="bar.mov" type="video/quicktime" />
+				<source src="really-alpha2-1.mov" type="video/quicktime" />
 				<source src="1-textured.webm" type="video/webm" />
 			</video>
 		</div>
 		<div class="background1">
 			<h1>#5 Both sources (#1 and #3)</h1>
 			<video playsinline controls width="500" autoplay muted loop>
-				<source src="bar2.mov" type='video/mp4; codecs="hvc1"' />
+				<source src="really-alpha2-1.mov" type="video/quicktime" />
 				<source src="1-textured.webm" type="video/webm" />
 			</video>
 		</div>
