@@ -1,0 +1,12 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g  transform="translate(-319.000000, -222.000000)">
+            <g id="Phone" transform="translate(319.000000, 222.000000)">
+                <rect id="BASE" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                <rect id="Screen" stroke="#ffffff" x="5.5" y="1.5" width="13" height="21" rx="4"></rect>
+                <line x1="6.29166667" y1="18.5" x2="18.5" y2="18.5" id="Line" stroke="#ffffff" stroke-linecap="square"></line>
+                <line x1="6.29166667" y1="5.5" x2="18.5" y2="5.5" id="Line" stroke="#ffffff" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

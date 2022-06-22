@@ -1,0 +1,12 @@
+<svg fill="#ffffff" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-272.000000, -222.000000)">
+            <g transform="translate(272.000000, 222.000000)">
+                <rect id="BASE" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                <rect id="Screen" stroke="#FFFFFF" x="0.5" y="2.5" width="23" height="17" rx="1"></rect>
+                <line x1="0.5" y1="16.5" x2="22.5" y2="16.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></line>
+                <line x1="5.5" y1="22.5" x2="18.5" y2="22.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>
